@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beepify - Listen and Relax</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"> <img src="logo.png" alt="Beepify"> Beepify </li>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+        </ul>
+    </nav> 
+    
+    <div class="container">  
+        <div class="songList">
+            <h1>Best songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName"></span>
+                    <span class="songListPlay"><span>04:07 <i id="1" class="fa-solid songPlay fa-circle-play"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="" alt="2">
+                    <span class="songName"></span>
+                    <span class="songListPlay"><span>04:07 <i id="2" class="fa-solid songPlay fa-circle-play"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="" alt="3">
+                    <span class="songName"></span>
+                    <span class="songListPlay"><span>04:07 <i id="3" class="fa-solid songPlay fa-circle-play"></i></span></span>
+                    
+                </div>
+                <div class="songItem">
+                    <img src="" alt="4">
+                    <span class="songName"></span>
+                    <span class="songListPlay"><span>04:07 <i id="4" class="fa-solid songPlay fa-circle-play"></i></span></span>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="songBanner">
+            
+        </div>
+
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" value="0" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-backward-step fa-2x"></i>
+            <i class="fa-solid fa-circle-play fa-2x" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-forward-step fa-2x"></i>
+        </div>
+        <div class="playingGif">
+            <img src="playing.gif" alt="" width="40px" id="gif"> 
+        </div>
+        
+    </div>
+
+    <script src="https://kit.fontawesome.com/a142592758.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

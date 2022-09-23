@@ -1,0 +1,114 @@
+body{
+    background-color: blanchedalmond;
+} 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+.logo img {
+    width: 80px;
+    padding: 0px 10px 0px 0px;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: lightgreen;
+}
+
+.container {
+    color: white;
+    font-family: sans-serif;
+    min-height: 68vh;
+    background-color: black;
+    margin: 23px auto; 
+    width: 70%;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url("bgi.jpg");
+}
+.songItemContainer {
+    margin-top: 20px;
+}
+.songItem {
+    background-color: white;
+    display: flex;
+    color: black;
+    height: 40px;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.songItem i {
+    cursor: pointer;
+}
+.songItem img {
+    width: 35px;
+    margin: 0 8px;
+    border-radius: 20px;
+}
+
+.songListPlay{
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    height: 90px;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icons{
+    margin-top: 15px;    
+}
+.icons i {
+    cursor: pointer;
+}
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+.playingGif {
+    position: absolute;
+    left: 9vw;
+    font-family: sans-serif;
+    
+}
+.playingGif img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
